@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="250" prefWidth="600" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.DomainStageController">
+    <children>      
+        <TableView AnchorPane.topAnchor="15" AnchorPane.bottomAnchor="50" AnchorPane.leftAnchor="15" AnchorPane.rightAnchor="15" fx:id="table" >
+            <columns>
+                <TableColumn text="Имя домена" fx:id="webnameColumn" />
+                <TableColumn text="Доменная зона" fx:id="domainNameColumn" />
+                <TableColumn text="IP" fx:id="IPColumn" />
+                <TableColumn text="Дата регистрации" fx:id="dateRegColumn" />
+                <TableColumn text="Страна" fx:id="countryColumn" />
+            </columns>
+        </TableView>
+         <Button layoutX="30" layoutY="210" text="Change style" onAction="#handleButtonAction" fx:id="change" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21.11.2022, 17:55:29
+    Author     : Topchilo
+*/
+    .table-view {
+    -fx-base: #b1b1ff;
+    -fx-control-inner-background: #d5d5ff;
+   
+}
+
+    .table-view:focused .table-row-cell:selected {
+    -fx-background-color: #7777ff;
+}
+
+
+   .table-view .column-header .label {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
+
