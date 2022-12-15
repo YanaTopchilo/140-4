@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="300" prefWidth="400" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx4fxml.FXMLDocumentController">
+    <children>
+        <Label text = "Welcome" layoutX="60" layoutY="30" fx:id="welcomLbl" />
+        <Label text = "User Name:" layoutX="60" layoutY="80" fx:id="userLbl" /> 
+        <TextField layoutX="180" layoutY="80" fx:id="textUser" />
+        <Label text = "Password:" layoutX="60" layoutY="120" fx:id="passLbl" /> 
+        <TextField layoutX="180" layoutY="120" fx:id="textPass" />
+        <Button layoutX="300" layoutY="170" text="Sign in" onAction="#handleButtonAction" fx:id="btn" />
+        <Label layoutX="60" layoutY="220" fx:id="enterLbl" /> 
+         
+    </children>
+</AnchorPane>
